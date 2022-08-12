@@ -23,10 +23,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		542A6D8728A4109000696344 /* color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		542A6D8828A43CFC00696344 /* hittable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hittable.h; sourceTree = "<group>"; };
 		5439FE6928A0CE2500466DF8 /* raytracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raytracer; sourceTree = BUILT_PRODUCTS_DIR; };
 		5439FE6C28A0CE2500466DF8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5439FE7328A0D42600466DF8 /* vec3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
 		5439FE7428A10CF400466DF8 /* ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		54BA688828A5624400EE0F36 /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		54BA688928A577C000EE0F36 /* hittable_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hittable_list.h; sourceTree = "<group>"; };
+		54BA688A28A57DA000EE0F36 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		54BA688B28A57E0800EE0F36 /* rtweekend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rtweekend.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				5439FE6C28A0CE2500466DF8 /* main.cpp */,
+				542A6D8828A43CFC00696344 /* hittable.h */,
+				54BA688928A577C000EE0F36 /* hittable_list.h */,
+				54BA688A28A57DA000EE0F36 /* camera.h */,
+				54BA688B28A57E0800EE0F36 /* rtweekend.h */,
 				5439FE7428A10CF400466DF8 /* ray.h */,
 				5439FE7328A0D42600466DF8 /* vec3.h */,
+				542A6D8728A4109000696344 /* color.h */,
+				54BA688828A5624400EE0F36 /* sphere.h */,
 			);
 			path = raytracer;
 			sourceTree = "<group>";
